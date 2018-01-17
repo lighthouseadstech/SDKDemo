@@ -9,7 +9,7 @@
 #ifndef Header_h
 #define Header_h
 
-#import <Adirects_SDK/Adirects_SDK.h>
+#import <Lighthouse_SDK/Adirects_SDK.h>
 #import "Masonry.h"
 #import "MBProgressHUD.h"
 

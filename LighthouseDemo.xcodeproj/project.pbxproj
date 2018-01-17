@@ -42,10 +42,13 @@
 		2F83B2FE1FA82E0600442806 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F83B2E91FA82DE200442806 /* MASConstraint.m */; };
 		2F83B2FF1FA82E0600442806 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F83B2EB1FA82DE200442806 /* MASViewConstraint.m */; };
 		2F83B3001FA82E0600442806 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F83B2EC1FA82DE200442806 /* MASViewAttribute.m */; };
-		2F83B3111FA9920900442806 /* Adirects_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F83B3101FA9920300442806 /* Adirects_SDK.framework */; };
-		2F83B3121FA9920900442806 /* Adirects_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F83B3101FA9920300442806 /* Adirects_SDK.framework */; };
 		2F83B3161FA9929800442806 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F83B3141FA9928A00442806 /* MBProgressHUD.m */; };
 		2F83B3171FA9929800442806 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F83B3141FA9928A00442806 /* MBProgressHUD.m */; };
+		EE10E174200D29C000238A55 /* Lighthouse_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE10E173200D29C000238A55 /* Lighthouse_SDK.framework */; };
+		EE10E175200D29C000238A55 /* Lighthouse_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE10E173200D29C000238A55 /* Lighthouse_SDK.framework */; };
+		EE4182BD2008D6DA007E6F86 /* CustomizedPlacementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4182BC2008D6DA007E6F86 /* CustomizedPlacementViewController.m */; };
+		EE4182BF2009051C007E6F86 /* white.png in Resources */ = {isa = PBXBuildFile; fileRef = EE4182BE2009051C007E6F86 /* white.png */; };
+		EE4182C1200906A7007E6F86 /* purple.png in Resources */ = {isa = PBXBuildFile; fileRef = EE4182C0200906A7007E6F86 /* purple.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -94,9 +97,13 @@
 		2F83B2EB1FA82DE200442806 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
 		2F83B2EC1FA82DE200442806 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
 		2F83B3051FA8432100442806 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
-		2F83B3101FA9920300442806 /* Adirects_SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Adirects_SDK.framework; sourceTree = "<group>"; };
 		2F83B3141FA9928A00442806 /* MBProgressHUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		2F83B3151FA9928A00442806 /* MBProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		EE10E173200D29C000238A55 /* Lighthouse_SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Lighthouse_SDK.framework; sourceTree = "<group>"; };
+		EE4182BB2008D6DA007E6F86 /* CustomizedPlacementViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomizedPlacementViewController.h; sourceTree = "<group>"; };
+		EE4182BC2008D6DA007E6F86 /* CustomizedPlacementViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomizedPlacementViewController.m; sourceTree = "<group>"; };
+		EE4182BE2009051C007E6F86 /* white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = white.png; sourceTree = "<group>"; };
+		EE4182C0200906A7007E6F86 /* purple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = purple.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F83B3111FA9920900442806 /* Adirects_SDK.framework in Frameworks */,
+				EE10E174200D29C000238A55 /* Lighthouse_SDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,7 +119,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F83B3121FA9920900442806 /* Adirects_SDK.framework in Frameworks */,
+				EE10E175200D29C000238A55 /* Lighthouse_SDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,7 +131,7 @@
 			children = (
 				2F83B3131FA9928A00442806 /* MBProgressHUD */,
 				2F83B2D31FA82DE200442806 /* Masonry */,
-				2F83B2B21FA82AA200442806 /* Adirects_SDK */,
+				2F83B2B21FA82AA200442806 /* Lighthouse_SDK */,
 				2F83B23D1FA81C6800442806 /* LighthouseDemo */,
 				2F83B29C1FA824C400442806 /* LighthouseSwiftDemo */,
 				2F83B23C1FA81C6800442806 /* Products */,
@@ -143,10 +150,14 @@
 		2F83B23D1FA81C6800442806 /* LighthouseDemo */ = {
 			isa = PBXGroup;
 			children = (
+				EE4182C0200906A7007E6F86 /* purple.png */,
+				EE4182BE2009051C007E6F86 /* white.png */,
 				2F83B27A1FA823DD00442806 /* LighthouseAppDelegate.h */,
 				2F83B2791FA823DD00442806 /* LighthouseAppDelegate.m */,
 				2F83B2771FA823DD00442806 /* LighthouseViewController.h */,
 				2F83B2781FA823DD00442806 /* LighthouseViewController.m */,
+				EE4182BB2008D6DA007E6F86 /* CustomizedPlacementViewController.h */,
+				EE4182BC2008D6DA007E6F86 /* CustomizedPlacementViewController.m */,
 				2F83B2541FA8200E00442806 /* image.png */,
 				2F83B2441FA81C6900442806 /* Main.storyboard */,
 				2F83B2471FA81C6900442806 /* Assets.xcassets */,
@@ -171,13 +182,13 @@
 			path = LighthouseSwiftDemo;
 			sourceTree = "<group>";
 		};
-		2F83B2B21FA82AA200442806 /* Adirects_SDK */ = {
+		2F83B2B21FA82AA200442806 /* Lighthouse_SDK */ = {
 			isa = PBXGroup;
 			children = (
-				2F83B3101FA9920300442806 /* Adirects_SDK.framework */,
+				EE10E173200D29C000238A55 /* Lighthouse_SDK.framework */,
 				2F83B2B41FA82AA200442806 /* images.bundle */,
 			);
-			path = Adirects_SDK;
+			path = Lighthouse_SDK;
 			sourceTree = "<group>";
 		};
 		2F83B2D31FA82DE200442806 /* Masonry */ = {
@@ -304,9 +315,11 @@
 			files = (
 				2F83B2B71FA82AAA00442806 /* images.bundle in Resources */,
 				2F83B24B1FA81C6900442806 /* LaunchScreen.storyboard in Resources */,
+				EE4182C1200906A7007E6F86 /* purple.png in Resources */,
 				2F83B2481FA81C6900442806 /* Assets.xcassets in Resources */,
 				2F83B2461FA81C6900442806 /* Main.storyboard in Resources */,
 				2F83B2551FA8201900442806 /* image.png in Resources */,
+				EE4182BF2009051C007E6F86 /* white.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +350,7 @@
 				2F83B2FB1FA82DFD00442806 /* MASLayoutConstraint.m in Sources */,
 				2F83B2FE1FA82E0600442806 /* MASConstraint.m in Sources */,
 				2F83B2FC1FA82E0600442806 /* NSArray+MASAdditions.m in Sources */,
+				EE4182BD2008D6DA007E6F86 /* CustomizedPlacementViewController.m in Sources */,
 				2F83B27C1FA823DD00442806 /* LighthouseAppDelegate.m in Sources */,
 				2F83B2F91FA82DF800442806 /* MASCompositeConstraint.m in Sources */,
 				2F83B2FD1FA82E0600442806 /* View+MASAdditions.m in Sources */,
@@ -436,6 +450,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -491,6 +506,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -513,12 +529,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SJVPQW4C8C;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Adirects_SDK",
+					"$(PROJECT_DIR)/Lighthouse_SDK",
 				);
 				INFOPLIST_FILE = LighthouseDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Adirects_SDK",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.adirects.www.LighthouseSwiftDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -530,12 +554,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SJVPQW4C8C;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Adirects_SDK",
+					"$(PROJECT_DIR)/Lighthouse_SDK",
 				);
 				INFOPLIST_FILE = LighthouseDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Adirects_SDK",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.adirects.www.LighthouseSwiftDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -550,10 +582,15 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Adirects_SDK",
+					"$(PROJECT_DIR)/Lighthouse_SDK",
 				);
 				INFOPLIST_FILE = LighthouseSwiftDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Adirects_SDK",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.adirects.www.LighthouseSwiftDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -572,10 +609,15 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Adirects_SDK",
+					"$(PROJECT_DIR)/Lighthouse_SDK",
 				);
 				INFOPLIST_FILE = LighthouseSwiftDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Adirects_SDK",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.adirects.www.LighthouseSwiftDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/LighthouseSwiftDemo/Header.h";

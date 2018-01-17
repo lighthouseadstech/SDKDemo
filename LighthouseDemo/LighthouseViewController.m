@@ -7,9 +7,10 @@
 //
 
 #import "LighthouseViewController.h"
-#import <Adirects_SDK/Adirects_SDK.h>
+#import <Lighthouse_SDK/Adirects_SDK.h>
 #import "Masonry.h"
 #import "MBProgressHUD.h"
+#import "CustomizedPlacementViewController.h"
 
 @interface LighthouseViewController () <LighthouseInterstailAdDelegate>
 {
@@ -42,6 +43,7 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
 
 - (IBAction)preloadAds:(id)sender {
     _count = 0;

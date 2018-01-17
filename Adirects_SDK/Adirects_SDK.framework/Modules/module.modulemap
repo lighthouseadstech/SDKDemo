@@ -1,6 +1,0 @@
-framework module Adirects_SDK {
-  umbrella header "Adirects_SDK.h"
-
-  export *
-  module * { export * }
-}
