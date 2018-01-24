@@ -142,8 +142,10 @@
 - (void)lighthouseAd:(LighthouseInterstailAd *)lighthouseAd didFailPreloadWithError:(NSError *)error withPlacementId:(NSString *)placementId {
     NSLog(@"预加载视频失败");
     _preloadBtn.userInteractionEnabled = YES;
-    [_activityIndicatorView1 removeFromSuperview];
-    [_activityIndicatorView2 removeFromSuperview];
+    if([placementId isEqualToString:@"176-10011"])
+        [_activityIndicatorView1 removeFromSuperview];
+    if([placementId isEqualToString:@"176-10012"])
+        [_activityIndicatorView2 removeFromSuperview];
     
     MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
     

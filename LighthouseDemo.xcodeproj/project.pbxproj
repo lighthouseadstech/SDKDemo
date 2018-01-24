@@ -44,11 +44,11 @@
 		2F83B3001FA82E0600442806 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F83B2EC1FA82DE200442806 /* MASViewAttribute.m */; };
 		2F83B3161FA9929800442806 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F83B3141FA9928A00442806 /* MBProgressHUD.m */; };
 		2F83B3171FA9929800442806 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F83B3141FA9928A00442806 /* MBProgressHUD.m */; };
-		EE10E174200D29C000238A55 /* Lighthouse_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE10E173200D29C000238A55 /* Lighthouse_SDK.framework */; };
-		EE10E175200D29C000238A55 /* Lighthouse_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE10E173200D29C000238A55 /* Lighthouse_SDK.framework */; };
 		EE4182BD2008D6DA007E6F86 /* CustomizedPlacementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4182BC2008D6DA007E6F86 /* CustomizedPlacementViewController.m */; };
 		EE4182BF2009051C007E6F86 /* white.png in Resources */ = {isa = PBXBuildFile; fileRef = EE4182BE2009051C007E6F86 /* white.png */; };
 		EE4182C1200906A7007E6F86 /* purple.png in Resources */ = {isa = PBXBuildFile; fileRef = EE4182C0200906A7007E6F86 /* purple.png */; };
+		EEE7C122201497A400F7E0F4 /* Lighthouse_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEE7C121201497A300F7E0F4 /* Lighthouse_SDK.framework */; };
+		EEE7C123201497A400F7E0F4 /* Lighthouse_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEE7C121201497A300F7E0F4 /* Lighthouse_SDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -99,11 +99,11 @@
 		2F83B3051FA8432100442806 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		2F83B3141FA9928A00442806 /* MBProgressHUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		2F83B3151FA9928A00442806 /* MBProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
-		EE10E173200D29C000238A55 /* Lighthouse_SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Lighthouse_SDK.framework; sourceTree = "<group>"; };
 		EE4182BB2008D6DA007E6F86 /* CustomizedPlacementViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomizedPlacementViewController.h; sourceTree = "<group>"; };
 		EE4182BC2008D6DA007E6F86 /* CustomizedPlacementViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomizedPlacementViewController.m; sourceTree = "<group>"; };
 		EE4182BE2009051C007E6F86 /* white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = white.png; sourceTree = "<group>"; };
 		EE4182C0200906A7007E6F86 /* purple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = purple.png; sourceTree = "<group>"; };
+		EEE7C121201497A300F7E0F4 /* Lighthouse_SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Lighthouse_SDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE10E174200D29C000238A55 /* Lighthouse_SDK.framework in Frameworks */,
+				EEE7C122201497A400F7E0F4 /* Lighthouse_SDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,7 +119,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE10E175200D29C000238A55 /* Lighthouse_SDK.framework in Frameworks */,
+				EEE7C123201497A400F7E0F4 /* Lighthouse_SDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,7 +185,7 @@
 		2F83B2B21FA82AA200442806 /* Lighthouse_SDK */ = {
 			isa = PBXGroup;
 			children = (
-				EE10E173200D29C000238A55 /* Lighthouse_SDK.framework */,
+				EEE7C121201497A300F7E0F4 /* Lighthouse_SDK.framework */,
 				2F83B2B41FA82AA200442806 /* images.bundle */,
 			);
 			path = Lighthouse_SDK;

@@ -130,7 +130,6 @@
     NSLog(@"预加载视频失败");
     _preloadBtn.userInteractionEnabled = YES;
     [_activityIndicatorView1 removeFromSuperview];
-    [_activityIndicatorView2 removeFromSuperview];
     
     MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
     
@@ -151,8 +150,7 @@
     self.playBtn.userInteractionEnabled = NO;
     
     [self.activityIndicatorView1 removeFromSuperview];
-    [self.activityIndicatorView2 removeFromSuperview];
-  
+   
    
     NSString * publisher_id = self.publisherId.text;
     NSString * placement_id = self.placementId.text;
